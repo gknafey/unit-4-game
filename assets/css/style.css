@@ -1,0 +1,85 @@
+body {
+    background: url(../images/interlace.png);
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    background-color: rgb(168, 83, 51);
+    color: rgb(207, 207, 207);
+    font-size: 30px;
+    font: bold;
+    padding: 10px;
+    width:250px;
+    margin: 10px 0px 10px 10px;
+}
+
+#textBox {
+    background-color: rgb(214, 169, 153);
+    color: green;
+    font-size: 20px;
+    font: bold;
+    padding: 10px;
+    width: 400px;
+    margin: 10px 0px 10px 10px;
+}
+
+#invis {
+    color: rgb(214, 169, 153);
+}
+
+.picture {
+    width: 125px;
+    height: 125px;
+    margin: 10px 5px 10px 10px;
+    position: relative;
+    top: -110px; 
+}
+
+#randomNumber {
+    background-color: rgb(118, 199, 118);
+    color: purple;
+    font-size: 20px;
+    font: bolder;
+    padding: 10px 0px 70px 0px;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+}
+
+#winsand {
+    background-color: rgb(112, 191, 236);
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    font: bolder;
+    padding: 10px 0px 30px 0px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    right: -210px;
+    top: -110px;
+}
+
+#tots {
+    background-color: rgb(43, 146, 136);
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    font: bolder;
+    padding: 10px 0px 10px 0px;
+    width: 200px;
+    margin: 10px 10px 5px 10px;
+    position: relative;
+    top: -110px;
+}
+
+#tots2 {
+    background-color: rgb(43, 146, 136);
+    color: rgb(228, 228, 228);
+    font-size: 30px;
+    font: bolder;
+    padding: 10px 0px 70px 0px;
+    width: 200px;
+    margin: 5px 10px 10px 10px;
+    position: relative;
+    top: -110px;
+
+}
