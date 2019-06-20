@@ -8,9 +8,9 @@
 </head>
 <body>
 <div>
-<h2>Crystals Collector!</h2>
+<h2 id="title">Crystals Collector!</h2>
 </div>
-<div>
+<div id="textBox">
     <p>
         You will be given a random number at the start of the game. <br><br>
         There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br><br>
@@ -26,13 +26,13 @@
 </div>
 <div>
     <div>
-        <div>
+        <div id="randomNumber">
         <!-- var randomNumber , needs math.random and all that-->
         </div>
         <div>
             <p>
-                Wins:<span> </span><br><br>
-                Losses:<span> </span>
+                Wins: <span id="win"></span><br><br>
+                Losses: <span id="loss"></span>
             </p>
         </div>
     </div>
@@ -40,18 +40,23 @@
 <div>
     <div>
         <div>
-        <!-- images here -->
+        <img id="red" src="./assets/images/red.PNG">
+        <img id="blue" src="./assets/images/blue.PNG">
+        <img id="yellow" src="./assets/images/yellow.PNG">
+        <img id="green" src="./assets/images/green.PNG">
         </div>
     </div>
 </div>
 <div>
-    <p>Your total score is:</p>
+    <p>Your total score is: <span id="total"></span></p>
 </div>
 <div>
 <!-- var totalScore here -->
 </div>
 
 
-<script src="./assets/javascript/game.js"></script>
+
 </body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
 </html>
